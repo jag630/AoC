@@ -1,5 +1,5 @@
 data = open("day4.txt").read().split("\n")
-cardscore, winsum, thesum = 0, 0, 0
+cardscore, winnum, thesum = 0, 0, 0
 cardcounts = []
 
 for i in range(len(data)):
